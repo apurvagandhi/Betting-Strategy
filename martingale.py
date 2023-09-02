@@ -95,7 +95,7 @@ def test_code():
     """  		  	   		  		 		  		  		    	 		 		   		 		  
     Method to test your code  		  	   		  		 		  		  		    	 		 		   		 		  
     """  		  	   		  		 		  		  		    	 		 		   		 		  
-    win_prob = 0.60  # set appropriately to the probability of a win  		  	   		  		 		  		  		    	 		 		   		 		  
+    win_prob = 9/19  # set appropriately to the probability of a win  		  	   		  		 		  		  		    	 		 		   		 		  
     np.random.seed(gtid())  # do this only once  		  	   		  		 		  		  		    	 		 		   		 		  
     perform_experiment_1_get_figure1(win_prob)
     perform_experiment_1_get_figure2_and_figure3(win_prob)
