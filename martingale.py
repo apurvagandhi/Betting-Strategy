@@ -42,10 +42,9 @@ def author():
 def gtid():  		  	   		  		 		  		  		    	 		 		   		 		  
     """  		  	   		  		 		  		  		    	 		 		   		 		  
     :return: The GT ID of the student  		  	   		  		 		  		  		    	 		 		   		 		  
-    :rtype: int  	903862828	  	   		  		 		  		  		    	 		 		   		 		  
+    :rtype: int	  	   		  		 		  		  		    	 		 		   		 		  
     """  		  	   		  		 		  		  		    	 		 		   		 		  
-    return 903862828  	   		  		 		  		  		    	 		 		   		 		  
-  		  	   		  		 		  		  		    	 		 		   		 		  
+    return 903862828  	   		  		 		  		  		    	 		 		   		 		  	   		  		 		  		  		    	 		 		   		 		  
   		  	   		  		 		  		  		    	 		 		   		 		  
 def get_spin_result(win_prob):  		  	   		  		 		  		  		    	 		 		   		 		  
     """  		  	   		  		 		  		  		    	 		 		   		 		  
@@ -60,8 +59,7 @@ def get_spin_result(win_prob):
     if np.random.random() <= win_prob:  		  	   		  		 		  		  		    	 		 		   		 		  
         result = True  		  	   		  		 		  		  		    	 		 		   		 		  
     return result  		 
-   
-  		  	   		  		 		  		  		    	 		 		   		 		  
+   	  		 		  		  		    	 		 		   		 		  
 def gambling_simulation(win_prob, bankRoll):
     episode_winnings = 0
     episode_array = np.full(1001, 80)
@@ -101,8 +99,6 @@ def test_code():
     perform_experiment_1_get_figure2_and_figure3(win_prob)
     perform_experiment_2_get_figure4_and_figure5(win_prob)
 
-
-    
 def perform_experiment_1_get_figure1(win_prob):
     #Figure 1 plotting and calculation
     plt.axis([0, 300, -256, 100])
